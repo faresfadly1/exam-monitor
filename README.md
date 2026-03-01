@@ -12,9 +12,9 @@ Project demo video: [demo.mov](examples/demo.mov)
 
 <video src="examples/demo.mov" controls width="900"></video>
 
-## Architecture Diagram
+## System Architecture
 
-![Architecture Diagram](docs/architecture.svg)
+![Architecture Diagram](docs/architecture.png)
 
 ## Core Capabilities
 
