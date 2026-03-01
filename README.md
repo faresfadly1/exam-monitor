@@ -1,4 +1,4 @@
-# AI Proctoring System (Computer Vision Based)
+# AI Proctoring System
 
 ## Project Overview
 
