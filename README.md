@@ -1,16 +1,30 @@
-# Exam Monitoring MVP
+# AI Proctoring System (Computer Vision Based)
 
 ## Project Overview
 
-This project uses YOLOv8 + OpenCV to:
+Real-time vision-based exam monitoring built with YOLOv8 and OpenCV.
+It detects risk behaviors, assigns stable verdicts, and exports evidence-ready incident reports.
+Designed as a practical, deployable MVP for classroom and lab environments.
 
-- detect `person` and `cell phone`
-- assign temporary IDs to people
-- classify each student as `CHEATING`, `SUSPICIOUS`, `NOT_CHEATING`, or `CLEAR`
-- log suspicious events and save evidence frames
-- play an audible alarm on confirmed cheating
-- auto-export an end-of-session incident report
-- optionally run baseline calibration before monitoring
+## Demo Preview
+
+Project demo video: [demo.mov](examples/demo.mov)
+
+<video src="examples/demo.mov" controls width="900"></video>
+
+## Architecture Diagram
+
+![Architecture Diagram](docs/architecture.svg)
+
+## Core Capabilities
+
+- Detect persons and mobile phones in real time.
+- Assign temporary tracking IDs to detected individuals.
+- Classify each student as `CHEATING`, `SUSPICIOUS`, `NOT_CHEATING`, or `CLEAR`.
+- Log suspicious events and save evidence frames.
+- Play an audible alarm on confirmed cheating.
+- Auto-export an end-of-session incident report.
+- Optionally run baseline calibration before monitoring.
 
 ## Tech Stack
 
@@ -118,13 +132,6 @@ python monitor.py \
 ```
 
 Press `q` to quit.
-
-## Demo Media
-
-Project demo video:
-[demo.mov](examples/demo.mov)
-
-<video src="examples/demo.mov" controls width="900"></video>
 
 ## macOS Camera Permission Fix
 

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500">
+  <defs>
+    <style>
+      .title { font: 700 34px Arial, sans-serif; fill: #0f172a; }
+      .box { fill: #f8fafc; stroke: #1e3a8a; stroke-width: 3; rx: 14; ry: 14; }
+      .label { font: 600 20px Arial, sans-serif; fill: #0f172a; }
+      .sub { font: 500 15px Arial, sans-serif; fill: #334155; }
+      .arrow { stroke: #1e3a8a; stroke-width: 4; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1e3a8a"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="52" class="title">AI Proctoring Pipeline</text>
+
+  <rect x="40" y="130" width="230" height="110" class="box"/>
+  <text x="78" y="177" class="label">Camera Input</text>
+  <text x="70" y="205" class="sub">CCTV / Webcam Feed</text>
+
+  <rect x="320" y="130" width="240" height="110" class="box"/>
+  <text x="350" y="177" class="label">Detection Layer</text>
+  <text x="353" y="205" class="sub">Person + Phone + Pose</text>
+
+  <rect x="610" y="130" width="240" height="110" class="box"/>
+  <text x="655" y="177" class="label">Tracking</text>
+  <text x="632" y="205" class="sub">IDs + Motion Over Time</text>
+
+  <rect x="900" y="130" width="220" height="110" class="box"/>
+  <text x="936" y="177" class="label">Heuristics</text>
+  <text x="932" y="205" class="sub">Behavior Signals</text>
+
+  <rect x="1160" y="130" width="210" height="110" class="box"/>
+  <text x="1207" y="177" class="label">Risk Engine</text>
+  <text x="1178" y="205" class="sub">Temporal Verdict Logic</text>
+
+  <rect x="520" y="320" width="360" height="110" class="box"/>
+  <text x="656" y="367" class="label">Alerts & Reports</text>
+  <text x="548" y="395" class="sub">Red Alerts, Evidence, Incident Report Export</text>
+
+  <line x1="270" y1="185" x2="320" y2="185" class="arrow"/>
+  <line x1="560" y1="185" x2="610" y2="185" class="arrow"/>
+  <line x1="850" y1="185" x2="900" y2="185" class="arrow"/>
+  <line x1="1120" y1="185" x2="1160" y2="185" class="arrow"/>
+  <line x1="1265" y1="240" x2="860" y2="320" class="arrow"/>
+  <line x1="700" y1="240" x2="700" y2="320" class="arrow"/>
+</svg>
