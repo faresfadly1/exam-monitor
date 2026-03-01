@@ -125,8 +125,6 @@ Project demo video:
 
 <video src="examples/demo.mov" controls width="900"></video>
 
-If the player does not render in your view: [Watch/Download Demo](examples/demo.mov)
-
 ## macOS Camera Permission Fix
 
 If you see `Could not open camera index` or `not authorized to capture video`:
