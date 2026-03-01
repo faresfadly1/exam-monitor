@@ -122,6 +122,7 @@ Press `q` to quit.
 ## Demo Media
 
 Project demo video:
+[demo.mov](examples/demo.mov)
 
 <video src="examples/demo.mov" controls width="900"></video>
 
