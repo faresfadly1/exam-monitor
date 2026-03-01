@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-# exam-monitor
-AI exam proctoring MVP using Python, OpenCV, and YOLOv8. Detects phone use, off-paper attention, and suspicious behavior in real time, then outputs stable verdicts (CHEATING/SUSPICIOUS/SAFE), triggers alerts, logs evidence, and exports incident reports with configurable thresholds.
-=======
->>>>>>> 60fe1e2 (Finalize local changes before sync)
 # Exam Monitoring MVP
 
 ## Project Overview
@@ -187,7 +180,3 @@ This profile is heavier on CPU/GPU but usually improves detection stability and 
 ## Important Limitation
 
 If a phone is fully hidden from the camera view, no vision model can confirm it directly. The app uses `POSSIBLE_HIDDEN_PHONE` as a risk heuristic, not hard proof.
-<<<<<<< HEAD
-=======
->>>>>>> bca7147 (Initial clean project with demo video)
->>>>>>> 60fe1e2 (Finalize local changes before sync)
