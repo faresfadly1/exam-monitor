@@ -121,7 +121,9 @@ Press `q` to quit.
 
 ## Demo Media
 
-Add screenshots/GIFs in `examples/` and reference them here for portfolio/HR review.
+Project demo video:
+
+- [Watch/Download Demo](examples/demo.mov)
 
 ## macOS Camera Permission Fix
 
