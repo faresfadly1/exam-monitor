@@ -123,7 +123,9 @@ Press `q` to quit.
 
 Project demo video:
 
-- [Watch/Download Demo](examples/demo.mov)
+<video src="examples/demo.mov" controls width="900"></video>
+
+If the player does not render in your view: [Watch/Download Demo](examples/demo.mov)
 
 ## macOS Camera Permission Fix
 
